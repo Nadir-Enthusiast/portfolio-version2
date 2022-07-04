@@ -1,7 +1,7 @@
 # portfolio-version2
 second version of portfolio
 
-#dependencies
+dependencies:
 
 ___ anime ___
 
