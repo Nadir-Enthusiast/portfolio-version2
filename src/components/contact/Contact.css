@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Pattaya&display=swap');
+
+.contact {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+}
+
+.heading > h1 {
+    letter-spacing: 2px;
+    font-size: 46px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.links {
+    position: relative;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links > h4 {
+    font-size: 32px;
+    margin: 40px;
+    font-family: 'Merienda One', cursive;
+    letter-spacing: 1px;
+}
