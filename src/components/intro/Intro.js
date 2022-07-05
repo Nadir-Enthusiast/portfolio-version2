@@ -31,7 +31,7 @@ function Intro() {
   })
 
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <video autoPlay muted loop>
         <source src="vid1.mp4" type="video/mp4" />
       </video> 
