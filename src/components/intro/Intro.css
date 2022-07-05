@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Titan+One&family=Yellowtail&display=swap');
 
 .intro {
-    max-height: 90vh;
+    max-height: 100vh;
     width: 100vw;
     justify-content: center;
     position: relative;
@@ -13,13 +13,13 @@
     height: fit-content;
     position: static;
     top: 0;
-    z-index: 9999;
+    z-index: 0;
     overflow: hidden;
 }
 
 
 .intro > .content {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     bottom: 250px;
     left: 250px;
@@ -44,7 +44,7 @@
 .intro > .animation {
     width: 700px;
     height: 600px;
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     bottom: 150px;
     right: 150px;
@@ -52,6 +52,7 @@
 
 .animation-wrapper {
     position: absolute;
+    z-index: 0;
     bottom: 0;
 }
 
@@ -69,6 +70,21 @@
     stroke: rgb(140, 0, 255);
 }
 
+@keyframes faded {
+    14% {stroke:rgb(255, 255, 255); stroke-width: 9;}
+    29% {stroke:rgb(255, 0, 0); stroke-width: 4;}
+    44% {stroke:rgb(234, 0, 255); stroke-width: 9;}
+    58% {stroke:rgb(255, 238, 0); stroke-width: 4;}
+    72% {stroke:rgb(30, 0, 255); stroke-width: 9;}
+    86% {stroke:rgb(30, 255, 0); stroke-width: 4;}
+    100% {stroke:rgb(0, 0, 0); stroke-width: 9;}
+}
+
+.star-route {
+    animation-name: faded;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
 @keyframes faded {
     14% {stroke:rgb(255, 255, 255); stroke-width: 9;}
     29% {stroke:rgb(255, 0, 0); stroke-width: 4;}
