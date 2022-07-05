@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Denk+One&family=Just+Another+Hand&family=Marcellus+SC&display=swap');
+
+.skills {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.skills > .title {
+    position: relative;
+    top: 140px;
+}
+
+.skills > .title > h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-family: 'Marcellus SC', serif;
+}
+
+.skills > .title > p {
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: 'Just Another Hand', cursive;
+}
+
+.skill-wrap {
+    position: relative;
+    top: 200px;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front-end > h1,
+.back-end > h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-family: 'Contrail One', cursive;
+}
+
+.skill > h2 {
+    font-size: 24px;
+    font-family: 'Denk One', sans-serif;
+}
+
+.front-end {
+    display: flex;
+    padding-left: 15px;
+    flex-direction: column;
+    position: relative;
+    float: left;
+    height: 460px;
+    width: 250px;
+    border: 12px solid #060a48;
+    border-radius: 3rem;
+}
+
+.back-end {
+    display: flex;
+    padding-right: 0;
+    flex-direction: column;
+    position: relative;
+    float: right;
+    height: 460px;
+    width: 260px;
+    border: 12px solid #060a48;
+    border-radius: 3rem;
+}
+
+.back-end > .skill {
+    padding-left: 15px;
+}
+
+.skill {
+    width: fit-content;
+}
+
+.progress-bar {
+    width: 230px;
+    height: 20px;
+    margin: 0;
+    background-color: rgb(198, 198, 198);
+    border-radius: 2rem;
+    z-index: 0;
+}
+
+.progress {
+    height: 20px;
+    margin: 0;
+    background: radial-gradient(rgb(0, 255, 213) 50%, rgb(16, 20, 136) 75%, rgb(1, 18, 42) 100%);
+    border-radius: 2rem;
+    z-index: 1;
+}
+
+/* FRONT END PROGRESS BARS FROM TOP TO BOTTOM */
+
+.a {
+    width: 180px;
+}
+
+.b {
+    width: 210px;
+}
+
+.c {
+    width: 170px;
+}
+
+.d {
+    width: 190px;
+}
+
+/* BACK END PROGRESS BARS FROM TOP TO BOTTOM */
+
+.e {
+    width: 110px;
+}
+
+.f {
+    width: 120px;
+}
+
+.g {
+    width: 100px;
+}
+
+.h {
+    width: 160px;
+}
