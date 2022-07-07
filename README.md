@@ -3,6 +3,6 @@ second version of portfolio
 
 dependencies:
 
-___anime ___
+___anime___
 
 ___react___
