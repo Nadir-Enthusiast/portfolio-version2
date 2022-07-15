@@ -14,7 +14,7 @@ function Projects() {
           {/* line one */}
           <div className="project-line one">
 
-            <div className="project" onClick={event => window.open("https://usermade-instagram.web.app/", "_blank")}>
+            <div className="project" onClick={event => window.open("https://social-media-app-by-nadir.web.app/", "_blank")}>
               <div className="pic social"></div>
               <h3>Social-Media</h3>
             </div>
@@ -34,9 +34,9 @@ function Projects() {
           {/* line two https://nadir-karimov.web.app/*/}
           <div className="project-line two">
 
-            <div className="project" onClick={event => window.open("https://usermade-messenger.web.app", "_blank")}>
+            <div className="project" onClick={event => window.open("https://group-chat-simple.web.app/", "_blank")}>
               <div className="pic mess"></div>
-              <h3>Messenger UI</h3>
+              <h3>Chat App</h3>
             </div>
 
             <div className="project" onClick={event => window.open("https://superb-khapse-8ab265.netlify.app", "_blank")}>
@@ -54,9 +54,9 @@ function Projects() {
           {/* line three */}
           <div className="project-line three">
 
-            <div className="project">
-              <div className="pic calc"></div>
-              <h3>Calculator</h3>
+            <div className="project" onClick={event => window.open("https://usermade-messenger.web.app", "_blank")}>
+              <div className="pic mess"></div>
+              <h3>Messenger UI</h3>
             </div>
 
             <div className="project">

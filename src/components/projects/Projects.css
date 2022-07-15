@@ -100,21 +100,16 @@ a {
 }
 
 .prm {
-    background: url("./ad.jpeg");
-    background-size: cover;
-}
-
-.calc {
-    background: url("./pic7.jpg");
+    background: url("./ad.jpg");
     background-size: cover;
 }
 
 .trb {
-    background: url("./pic8.png");
+    background: url("./pic8.jpg");
     background-size: cover;
 }
 
 .srv {
-    background: url("./pic9.jpeg");
+    background: url("./pic9.jpg");
     background-size: cover;
 }
